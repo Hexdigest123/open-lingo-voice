@@ -1,0 +1,116 @@
+{
+	"nav": {
+		"chat": "Chat",
+		"settings": "Settings",
+		"logout": "Log out",
+		"login": "Log in",
+		"register": "Get started"
+	},
+	"common": {
+		"loading": "Loading...",
+		"save": "Save",
+		"cancel": "Cancel",
+		"delete": "Delete",
+		"back": "Back",
+		"error": "An error occurred"
+	},
+	"auth": {
+		"email": "Email",
+		"password": "Password",
+		"displayName": "Display Name",
+		"loginTitle": "Welcome back!",
+		"loginSubtitle": "Log in to continue practicing",
+		"registerTitle": "Create your account",
+		"registerSubtitle": "Practice Spanish with voice and text chat",
+		"loginButton": "Log in",
+		"registerButton": "Create account",
+		"noAccount": "Don't have an account?",
+		"hasAccount": "Already have an account?",
+		"signUp": "Sign up",
+		"loggingIn": "Logging in...",
+		"creatingAccount": "Creating account...",
+		"displayNamePlaceholder": "How should we call you?",
+		"emailPlaceholder": "you@example.com",
+		"passwordPlaceholder": "Your password",
+		"passwordHint": "Must be at least 8 characters",
+		"passwordMinChars": "At least 8 characters",
+		"confirmPassword": "Confirm Password",
+		"confirmPasswordPlaceholder": "Confirm your password",
+		"errors": {
+			"required": "All fields are required",
+			"invalidEmail": "Please enter a valid email",
+			"passwordLength": "Password must be at least 8 characters",
+			"passwordMismatch": "Passwords do not match",
+			"invalidCredentials": "Invalid email or password",
+			"emailExists": "An account with this email already exists"
+		}
+	},
+	"landing": {
+		"title": "Practice Spanish with",
+		"titleHighlight": "AI Voice & Chat",
+		"subtitle": "A focused, standalone voice and text chat practice app powered by OpenAI's Realtime API.",
+		"getStarted": "Get started for free",
+		"haveAccount": "I already have an account",
+		"features": {
+			"voice": {
+				"title": "Real-time Voice",
+				"description": "Have natural spoken conversations with an AI Spanish tutor using the OpenAI Realtime API."
+			},
+			"chat": {
+				"title": "Text Chat",
+				"description": "Ask questions, get translations, and practice writing in Spanish at your own pace."
+			},
+			"history": {
+				"title": "Conversation History",
+				"description": "Your conversations are saved so you can review past practice sessions anytime."
+			}
+		},
+		"footer": "OpenLingo Voice - Practice Spanish with AI"
+	},
+	"settings": {
+		"title": "Settings",
+		"language": "Language",
+		"languageDescription": "Choose your preferred interface language",
+		"apiKey": {
+			"title": "OpenAI API Key",
+			"description": "Enter your personal OpenAI API key for chat features. If not set, the server's global key will be used.",
+			"placeholder": "sk-...",
+			"configure": "Configure API Key",
+			"status": {
+				"configured": "Personal API key configured",
+				"notConfigured": "No personal API key configured (using global key if available)"
+			},
+			"save": "Save API Key",
+			"remove": "Remove API Key",
+			"getKey": "Get an API key from OpenAI",
+			"success": "API key saved successfully",
+			"removed": "API key removed",
+			"error": "Failed to save API key"
+		}
+	},
+	"chat": {
+		"title": "Practice Chat",
+		"subtitle": "Practice Spanish with AI",
+		"newSession": "New Conversation",
+		"noSessions": "No conversations yet",
+		"startConversation": "Start a conversation to practice Spanish!",
+		"typeMessage": "Type your message...",
+		"send": "Send",
+		"voiceMode": "Voice",
+		"textMode": "Text",
+		"holdToSpeak": "Click to start a voice call",
+		"apiKeyRequired": "API Key Required",
+		"apiKeyRequiredDesc": "Configure your OpenAI API key to use chat.",
+		"connecting": "Connecting...",
+		"connected": "Connected",
+		"startVoiceChat": "Start Voice Chat",
+		"endCall": "End Call",
+		"deleteTitle": "Delete Conversation",
+		"confirmDelete": "Are you sure you want to delete this conversation?",
+		"error": {
+			"microphoneAccess": "Microphone access denied",
+			"connectionFailed": "Connection failed",
+			"sendFailed": "Failed to send message"
+		}
+	}
+}

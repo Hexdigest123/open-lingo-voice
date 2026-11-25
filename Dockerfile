@@ -1,5 +1,5 @@
 # Build stage
-FROM node:22-alpine AS builder
+FROM node:22.23.5-alpine AS builder
 
 WORKDIR /app
 
@@ -20,7 +20,7 @@ ENV ENCRYPTION_KEY="000000000000000000000000000000000000000000000000000000000000
 RUN npm run build
 
 # Production stage
-FROM node:22-alpine AS production
+FROM node:22.23.5-alpine AS production
 
 WORKDIR /app
 
